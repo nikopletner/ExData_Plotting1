@@ -21,6 +21,7 @@ plot4 <- function() {
 
 ## plotting        
 
+        Sys.setlocale("LC_TIME", "English")
         png("plot4.png")
         par(mfcol = c(2, 2), mar = c(6, 4, 2, 2))
         

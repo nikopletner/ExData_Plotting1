@@ -21,6 +21,7 @@ plot3 <- function() {
 
 ## plotting        
 
+        Sys.setlocale("LC_TIME", "English")
         png("plot3.png")
         
         plot(dataset$DateTime, dataset$Sub_metering_1, 
@@ -32,5 +33,5 @@ plot3 <- function() {
                lwd = 1, col = c("black", "red", "blue"))
         
         dev.off()
-        
+
 }

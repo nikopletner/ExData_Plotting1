@@ -21,6 +21,7 @@ plot2 <- function() {
 
 ## plotting        
 
+        Sys.setlocale("LC_TIME", "English")
         png("plot2.png")
         
         with(dataset, 
